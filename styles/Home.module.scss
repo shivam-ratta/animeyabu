@@ -1,0 +1,127 @@
+.wrapper {
+    min-height: 100vh;
+    .loginWrapper {
+        background-color: black;
+        .logo {
+            width: 46px !important;
+            height: 46px !important;
+        }
+        .logoText {
+            width: 129px !important;
+            height: 26px !important;
+        }
+        .loginFormWrapper {
+            position: relative;
+            padding: 0 10px;
+            .backBtnWrapper {
+                left: 0!important;
+                margin: 20px 0;
+                .backBtn{
+                    Width:17.21px !important;
+                    Height:21.9px !important;               
+                }
+            }
+            .formHeader {
+                .cat {
+                    width: 145px !important;
+                    height: 149px !important;
+                }
+                .welcomeText {
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 36.5385px;
+                    line-height: 55px;
+                    letter-spacing: 0.065em;
+                    color: #FFFFFF;
+                }
+                .welcomeTextSub {
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.065em;
+                    color: #FFFFFF;
+                }
+            }
+            .loginForm{
+                margin-top: 2rem ;
+                .formGroup {
+                    margin-bottom: 1.2rem;
+                    position: relative!important;
+                    .label {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        margin-bottom: 0.2rem;
+                        line-height: 21px;
+                        letter-spacing: -0.103101px;
+                        color: #FFFFFF;
+                    }
+                    .formControl {
+                        color: #D8D5D9 !important;
+                        width: 100%;
+                        height: 60px;
+                        border: 2px solid #FFFFFF;
+                        background: rgba(255, 255, 255, 0.47);
+                        border-radius: 10px;
+                        padding-right: 15px;
+                    }
+                    .showPassword {
+                        position: absolute !important;
+                        left: 90% !important;
+                        top: 45px!important;
+                        z-index: 99;
+                        width: 22px;
+                    }
+                }
+                .registerBtn {
+                    height: 60px;
+                    background: #E487FB;
+                    border-radius: 10px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #3E1149;
+                }
+            }
+            .formFooter {
+                .socialLoginText {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    text-align: center;
+                    letter-spacing: -0.103101px;
+                    color: #FFFFFF;
+                }
+                .loginLink {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    letter-spacing: 0.065em;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+            }
+            .formHeader, .loginForm, .formFooter {
+                
+                max-width: 368px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .carouselWrapper {
+        position: relative;
+        .carouselEllipse {
+            margin: 0 auto;
+            text-align: center;
+            .avatar {
+                position:absolute; 
+                top:10%; 
+                left:22%;
+            }
+        }
+    }
+}
