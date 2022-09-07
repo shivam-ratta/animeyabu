@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
-import Register from './register'
+import Register from './Register'
 import RegisterCarousel from './RegisterCarousel'
 
 export default function Home() {
